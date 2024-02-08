@@ -1,0 +1,64 @@
+#title {
+  height: 1016px;
+  margin-bottom: 100px;
+}
+#title .wrap {
+  width: 1803px;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+#title .wrap .witem {
+  height: 100%;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+#title .wrap .witem1 {  
+  background-image: url(../img/title1.jpg);
+}
+#title .wrap .witem2 {
+  background-image: url(../img/title2.jpg);
+}
+#title .wrap .witem p {
+  transform: translateX(-470px) translateY(50px);
+  line-height: 1.4;
+  font-weight: bold;
+}
+#title .wrap .witem p.p2 {  
+  color: white;
+  line-height: 3;
+  transform: translateX(-500px);
+}
+#title .wrap .witem p span{
+  line-height: 1.6;
+  font-weight: initial;
+}
+#title .wrap .witem a {
+  border: 1px solid;
+  padding: 15px 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: translateX(-616px) translateY(80px);
+}
+#title .wrap .witem a.a2{
+  color: white;
+  transform: translateX(-616px) translateY(70px);
+}
+#title .wrap .slick-list {
+  height: 100%;
+}
+#title .wrap .slick-dots {  
+  bottom: -50px;
+}
+#title .wrap .slick-list .slick-track{
+  height: 100%;
+}
+#title .wrap .slick-dots li button {
+  
+}
+#title .wrap .slick-dots li button::before {
+  font-size: 10px;
+}

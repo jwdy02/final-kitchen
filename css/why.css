@@ -1,0 +1,58 @@
+section#why {
+  
+}
+section#why .wrap {  
+  padding: 100px 0 100px 0;
+  height: 100%;
+  width: 1803px;
+  box-sizing: border-box;
+}
+section#why .wrap ul.whyAni {    
+  
+}
+section#why .wrap ul.whyAni li{    
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  auto auto auto auto;
+  grid-row-gap: 30px;
+}
+section#why .wrap ul.whyAni li h2 {  
+  margin-top: 100px;
+  font-weight: bold;
+  margin-bottom: 34px;
+  line-height: 1.2;
+}
+section#why .wrap ul.whyAni li h2::before{
+  content: "";
+  background-image: url(../img/why.svg);
+  width: 110px;
+  height: 91.05px;
+  display: block;
+  margin: 0 auto;
+}
+section#why .wrap ul.whyAni li p {  
+  color: #6d6d6d;
+}
+section#why .wrap ul.whyAni li a {
+  color: #ccc;
+  text-decoration: underline;
+  font-style: italic;
+}
+section#why .wrap ul.whyAni li img{
+  width: 905.1px;
+  height: 800px;
+  grid-column: 2;
+  grid-row: 1 / span 5;
+}
+section#why .wrap .slick-dots{  
+  bottom: -50px;
+}
+section#why .wrap .slick-dots li{  
+  display: inline-block !important;
+  width: 20px !important;
+}
+section#why .wrap .slick-dots li button::before{  
+  font-size: 10px;
+}

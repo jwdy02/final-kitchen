@@ -1,0 +1,56 @@
+section#feature {
+  padding: 100px 0;
+}
+section#feature .wrap {   
+  width: 1803px;
+  
+}section#feature .wrap h2 {   
+  font-weight: bold;
+  margin-bottom: 25px;
+ }
+section#feature .wrap ul {
+   
+}
+section#feature .wrap ul a {
+   
+}
+section#feature .wrap ul a li {   
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+section#feature .wrap ul a:nth-child(1) li::before{  
+  background-image: url(../img/design.jpg);
+}
+section#feature .wrap ul a:nth-child(2) li::before{  
+  background-image: url(../img/funtion.jpg);
+}
+section#feature .wrap ul a:nth-child(3) li::before{  
+  background-image: url(../img/funtion2.jpg);
+}
+section#feature .wrap ul a:nth-child(4) li::before{  
+  background-image: url(../img/funtion3.jpg);
+}
+section#feature .wrap ul a li::before{
+  content: "";
+  display: block;
+  width: 428.25px;
+  height: 466.8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 30px;
+}
+section#feature .wrap ul a li h3 {   
+  color: #ccc;
+  font-style: italic;
+}
+section#feature .wrap ul a li p.p1 {   
+  font-weight: bold;
+  padding-bottom: 15px;
+  color: black;
+  line-height: 1.2;
+}
+section#feature .wrap ul a li p {   
+  color: #6d6d6d;
+}

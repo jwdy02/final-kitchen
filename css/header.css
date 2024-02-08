@@ -1,0 +1,71 @@
+header {  
+  width: 1903px;
+  height: 100px;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0px 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+header .wrap {  
+  width: 1803px;
+  height: 100px;
+  align-items: center;
+}
+header .wrap h1 {  
+  order: 2;
+  transform: translateX(-40px);
+}
+header .wrap h1 a {  
+  font-size: 0;
+  background-image: url(../img/logo.svg);
+  display: block;
+  width: 220px;
+  height: 21.5833px;
+}
+header .wrap> ul {  
+  display: flex;
+  order: 1;
+  gap: 28px;
+}
+header .wrap ul li {
+  
+}
+header .wrap ul li a {  
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+header .wrap ul li a:hover{
+  border-bottom: 1px solid black;
+}
+header .wrap> ul li:nth-child(4) a {  
+  color: #0074c8;
+}
+header .wrap> ul li:nth-child(4) a:hover {  
+  border-bottom: 1px solid #0074c8;
+}
+
+header .wrap .right {  
+  order: 3;
+}
+header .wrap .right ul {  
+  gap: 28px;
+}
+header .wrap .right ul li {
+  
+}
+header .wrap .right ul li:hover {
+  
+}
+header .wrap .right> ul li a {
+  
+}
+header .wrap .right> ul li:nth-child(3) a {  
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+}
+header .wrap .right> ul li:nth-child(3) a:hover {
+  background-color: #0074c8;
+  border-bottom: none;
+}
